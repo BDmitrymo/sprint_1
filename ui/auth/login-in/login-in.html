@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          crossorigin="anonymous">
+
+    <title>Авторизация</title>
+
+    <link rel="stylesheet" href="login-in.css">
+</head>
+<body>
+
+<div class="auth">
+    <div class="form-auth__box">
+        <form method="post" action="#" novalidate>
+            <div class="form-auth__title">Авторизоваться</div>
+            <div class="form-auth__box-input">
+                <div class="form-auth__row">
+                    <div class="form-auth__label-box">
+                        <label class="form-auth__label" for="login">Введите ваш ID</label>
+                    </div>
+                    <div class="form-auth__cell">
+                        <input class="custom-input form-auth__input"
+                               id="login"
+                               type="text"
+                               name="login"
+                               autocorrect="off"
+                               autocapitalize="off"
+                               placeholder="email">
+                    </div>
+                </div>
+                <div class="form-auth__row">
+                    <div class="form-auth__label-box">
+                        <label class="form-auth__label" for="password">Введите пароль</label>
+                    </div>
+                    <div class="form-auth__cell">
+                        <input class="custom-input form-auth__input"
+                               id="password"
+                               type="password"
+                               name="password"
+                               autocorrect="off"
+                               autocapitalize="off"
+                               placeholder="* * * * * * *">
+                    </div>
+                </div>
+            </div>
+            <div class="form-auth__box-button-action">
+                <button type="submit"
+                        class="custom-button button_width_max button_color_blue form-auth__button-action">
+                    Войти
+                </button>
+            </div>
+            <div class="passage">
+                <div class="passage__title">У Вас нет аккаунта?</div>
+                <a href="#" class="link_width_max passage__link">Зарегистрироваться</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+</body>
+</html>
